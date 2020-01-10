@@ -1,0 +1,101 @@
+.studentListContainer{
+    background-color: white;
+    width: 800px;
+    
+} 
+
+.studentListContainer .studentContainer:not(:last-child){
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.studentContainer {
+    /* height: 150px; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.infoArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.studnetInfo{
+    display: flex;
+    flex-direction: row;
+}
+.userpic{
+    line-height: 170px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userpic img {
+    width: 120px;
+    height: 120px;
+    margin-left: -5px;
+    border: 1px lightgrey solid;
+    border-radius: 50%;
+}
+
+.userinfo div:first-child{
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.userinfo div:not(:first-child){
+    margin: 5px;
+    margin-left: 15px;
+    font-weight: 100;
+    color: gray
+}
+
+.btn-toggle{
+    border: none;
+    outline: none;
+}
+
+
+.btn-toggle i{
+    color: grey;
+}
+.grades{
+    margin-left: 165px;
+    font-weight: 100;
+    color: grey
+}
+.tagForm{
+    margin: 20px auto 20px auto
+}
+.tagLine{
+    margin-left: 165px;
+    height: 30px;
+}
+
+.tags{
+    background-color: lightgray;
+    color: #3d3d3d;
+    width: auto;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.add-tag-input {
+    margin: 10px auto auto 165px;
+    height: 20px;
+    line-height: 30px;
+    font-size: 1em;
+    font-weight: 100;
+    color: grey;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+input:focus {
+    border-bottom: 1px solid #3d3d3d
+}

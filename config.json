@@ -1,0 +1,7 @@
+{
+    "install": "npm install",
+    "run webpack": "npm run react",
+    "run application": "npm start",
+    "port": 3000
+}
+

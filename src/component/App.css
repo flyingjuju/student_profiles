@@ -1,0 +1,36 @@
+.container {
+    border: 2px lightgrey solid;
+    border-radius: 15px;
+    overflow: auto;
+    overflow-y: auto;
+    margin: 70px auto;
+    max-height: 600px;
+}
+
+.searchArea{
+    position: sticky;   
+    z-index: 1;        
+    top: 0px;
+}
+
+.searchBar {
+    width: auto;
+    padding:10px;
+    padding-bottom: 0;
+    background-color: white;
+    
+}
+
+.searchBar input {
+    width: 100%;
+    border: none;
+    line-height: 50px;
+    font-size: 1em;
+    font-weight: 100;
+    border-bottom: 2px solid #e8e8e8;
+    outline: none;
+}
+
+input:focus {
+    border-bottom: 1px solid #3d3d3d
+}
