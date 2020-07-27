@@ -10,7 +10,7 @@
 
 2. `npm run react` to start webpack
 
-3. `npm start` to start application, with port set on 3000.
+3. `npm start` to start application, with port set on 3000
 
-4. User can use search bars to filter studnets by their names and tags
+4. User can use search bars to filter studnets by their names and tags, `+` is to add tag(s) to each student
 
